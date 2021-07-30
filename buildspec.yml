@@ -6,7 +6,7 @@ env:
     #Host: Host
     #Username: username
     #Password: password
-    #Project: nodejsproject
+    Project: nodejsproject
 phases:
   install:
     runtime-versions:
