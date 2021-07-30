@@ -27,7 +27,7 @@ phases:
       - npm install -g sonarqube-scanner
       #- PRJ="${Project}Test"
       #- echo "${PRJ}"
-      - sonar-scanner -Dsonar.projectKey=Sidharth-test -Dsonar.sources=. -Dsonar.host.url=http://52.90.207.185:9000 -Dsonar.login=53bb997c0b4fe205ab517e138393aec8d16281f2     # - echo Logging in to Amazon ECR...
+      - sonar-scanner -Dsonar.host.url=http://52.90.207.185:9000 -Dsonar.login=53bb997c0b4fe205ab517e138393aec8d16281f2 -Dsonar.login=admin -Dsonar.password=admin
      # - aws --version
      # - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
      # - REPOSITORY_URI=$TemplateURL
